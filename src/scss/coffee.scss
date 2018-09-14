@@ -140,3 +140,72 @@ footer p{
 color: white;
 font-size: 0.8rem;
 }
+
+@media screen and (max-width:1040px){
+  .cardcontainer{
+    padding: 0rem;
+  }
+}
+
+@media screen and (max-width:1040px){
+  section{
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width:1040px){
+  section{
+    height: 1700px;
+  }
+}
+
+@media screen and (max-width:580px){
+  section{
+    height:1800px ;
+  }}
+
+  @media screen and (max-width:430px){
+    .headertext{
+      display: block;
+      text-align: left;
+      padding: 0rem;
+      min-width: 100px;
+    }
+    header{
+      display: flex;
+      flex-direction: column;
+    
+    
+      height: 200px;
+    
+      background-color: #f8f9fa;}
+      .headertext a{
+        padding-top: 0rem;
+        color: #848585;
+        text-decoration: none;}
+}
+
+@media screen and (max-width:560px){
+  .headertext{
+    display: block;
+    text-align: center;
+    padding: 2rem 0rem 0rem 0rem;
+    min-width: 100px;
+  }  
+  .headertext a{
+    padding: 1rem;
+    
+  }
+
+}
+
+@media screen and (max-width:500px){
+  .headertext {
+  display: block;
+  text-align: center;
+  padding: 2rem 0rem 0rem 0rem;
+  min-width: 100px;
+  }
+  .headertext a{
+    padding: 0.5rem;}
+}
