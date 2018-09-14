@@ -1,7 +1,7 @@
     * {
         font-family: 'Roboto Condensed', sans-serif;
+        margin: 0;
         text-align: center;
-        margin: 0
         
     }
 
@@ -85,6 +85,26 @@
 
         }
 
+        .menulist {
+            margin-bottom: 4rem;
+        }
+
+        .espresso {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;  
+        }
+
+        .essp {
+            h1, h2 {
+                font-weight: normal;
+                text-align: left;
+                padding: 1rem; 
+            }
+        }
+
+
+
         .footer {
             background-color: #343a40;
 
@@ -125,6 +145,10 @@
                 color: #1179bf;   
             }
         }
+
+
+
+        
 
         
         
