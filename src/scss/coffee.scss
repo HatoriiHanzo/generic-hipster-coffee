@@ -14,23 +14,26 @@ header{
   justify-content: space-around;
 
 
-  height: 10vh;
+  height: 100px;
 
   background-color: #f8f9fa;
 }
+
+
+
 section{
  display: flex;
  justify-content: center;
 
 
-  height: 70vh;
+  height: 1000px;
 
 }
 footer{
   display: flex;
 
 
-  height: 20vh;
+  height: 200px;
 
   background-color: #343a40;
 
@@ -45,28 +48,95 @@ footer{
   max-height:8vh ;
 }
 
-.headertext p{
+.headertext a{
   padding-top: 3rem;
   color: #848585;
+  text-decoration: none;
 }
 
 .container{
   max-width: 70vw;
-  height: 70vh;
+  height: 1000px;
+}
+
+.container h1{
+font-family: 'Roboto condensed';
+
+  margin: 0.5rem;
+}
+.text p{
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+
+.cardcontainer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0rem 5rem 0rem 5rem;
+
+  height: 900px;
+
 }
 
 .card{
-  width: 20vw;
-  height: 30vh;
+  width: 200px;
+  
+  height: 300px;
+  margin: 2rem 2rem;
 }
 .card img{
-  width: 20vw;
-  height: 30vh;
+  width: 200px;
+  
+  height: 150px;
 }
 .cardheader{
   background-color: #f0f1f2;
+  border-bottom: 1px solid gray;
 }
 
 .cardfooter{
   background-color: #f8f9fa;
+  font-style: italic;
+  font-size: 0.5rem;
+}
+.cardfootertext{
+font-size: 0.8rem;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.anchors{
+  display: flex;
+  justify-content: space-around;
+
+  min-width: 40vw;
+  padding:3rem;
+}
+
+.anchors a{
+  color: #1179bf;
+  text-decoration: underline;
+}
+
+footer a{
+  color: #1179bf;
+  text-decoration: underline;
+}
+
+footer h6{
+color: white;
+font-size: 1rem;
+padding: 1rem;
+font-style: bold;
+}
+footer p{
+color: white;
+font-size: 0.8rem;
 }
