@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  text-align: center;
 }
 
 html{
@@ -9,15 +10,39 @@ html{
 
 }
 
-header{
-  display: flex;
-  justify-content: space-around;
+.navigation {
+  height: 30vh;
+  width: 100vw;
+  background-color:#f8f9fa;
+  justify-items: center;
 
+  img {
+      height: 70%;
+      width: 80%;
+  }
 
-  height: 100px;
+  .links {
+      flex-flow: row nowrap;
+      flex-direction: space-around;
+      font-size: 1rem;
+      padding-bottom: 2rem;
+      
 
-  background-color: #f8f9fa;
+      .link  {
+          text-decoration: none;
+          color: #848585;
+          padding: 0.2rem;
+      
+          
+      }
+
+      .link:hover {
+          color: #000000;
+      }
+  
+  }
 }
+
 
 
 
@@ -64,9 +89,11 @@ font-family: 'Roboto condensed';
 
   margin: 0.5rem;
 }
-.text p{
+
+.text p, h1 {
   font-size: 1rem;
   margin: 0.5rem;
+  text-align: left;
 }
 
 
@@ -125,20 +152,39 @@ footer{
   text-decoration: underline;
 }
 
-footer a{
-  color: #1179bf;
-  text-decoration: underline;
-}
+.footer {
+  background-color: #343a40;
 
-footer h6{
-color: white;
-font-size: 1rem;
-padding: 1rem;
-font-style: bold;
-}
-footer p{
-color: white;
-font-size: 0.8rem;
+
+  .links {
+      margin-top: 2rem;
+      
+  }
+
+  .link {
+      color: #1179bf;
+      padding: 0.2rem;
+  }
+
+  .link:hover {
+      color: #FFFFFF;
+  }
+
+  h5 {
+      color: #FFFFFF;
+      letter-spacing: 0.1rem;  
+  }
+
+  p {
+      color: #FFFFFF;
+      padding-bottom: 3rem;
+      font-size: 0.7rem;
+
+  }
+
+  a {
+      color: #1179bf;   
+  }
 }
 
 @media screen and (max-width:1040px){
@@ -164,26 +210,8 @@ font-size: 0.8rem;
     height:1800px ;
   }}
 
-  @media screen and (max-width:430px){
-    .headertext{
-      display: block;
-      text-align: left;
-      padding: 0rem;
-      min-width: 100px;
-    }
-    header{
-      display: flex;
-      flex-direction: column;
-    
-    
-      height: 200px;
-    
-      background-color: #f8f9fa;}
-      .headertext a{
-        padding-top: 0rem;
-        color: #848585;
-        text-decoration: none;}
-}
+
+   
 
 @media screen and (max-width:560px){
   .headertext{
